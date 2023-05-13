@@ -104,6 +104,7 @@ public class GetProfAss extends HttpServlet {
                 String comment = rs.getString("comment");
                 out.println("<tr><td>" + professor + "</td><td>" + school + "</td><td>" + course + "</td><td>" + rating + "</td><td>" + comment + "</td></tr>");
             }
+            out.println("<form action=\"index.html\"><input type=\"submit\" value=\"Return to home\" /></form>");
             out.println("</body></html>");
         } catch (SQLException e) {
             // TODO Auto-generated catch block
