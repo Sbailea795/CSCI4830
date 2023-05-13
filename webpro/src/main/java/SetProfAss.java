@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class demo3
  */
-@WebServlet("/GetProfAss")
+@WebServlet("/SetProfAss")
 public class SetProfAss extends HttpServlet {
     private static final long serialVersionUID = 1;
 
