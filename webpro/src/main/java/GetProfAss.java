@@ -35,6 +35,7 @@ public class GetProfAss extends HttpServlet {
      */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // TODO Auto-generated method stub
+    	System.out.println(request.toString() +"\n"+ response.toString());
         String sql;
         Connection connection = null;
         //Statement statement = null;

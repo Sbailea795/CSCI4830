@@ -107,7 +107,7 @@ public class SetProfAss extends HttpServlet {
             e1.printStackTrace();
         }
         out.println("<p align = \"center\">Thank you for giving other students valuable feedback</p>");
-        out.println("<form action=\"lookup.html\"><input type=\"submit\" value=\"Return to home\" /></form>");
+        out.println("<form action=\"index.html\"><input type=\"submit\" value=\"Return to home\" /></form>");
         out.println("</body></html>");
     }
 
